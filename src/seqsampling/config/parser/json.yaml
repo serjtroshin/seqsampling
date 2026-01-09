@@ -1,0 +1,4 @@
+# conf/prompts/json.yaml
+_target_: seqsampling.parsing.json_parser.JsonSolutionsParser
+key: "solutions"
+item_model: null

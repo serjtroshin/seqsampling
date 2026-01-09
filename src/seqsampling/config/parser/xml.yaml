@@ -1,0 +1,3 @@
+# conf/prompts/xml.yaml
+_target_: seqsampling.parsing.xml_parser.XmlSolutionsParser
+k_solutions: 4

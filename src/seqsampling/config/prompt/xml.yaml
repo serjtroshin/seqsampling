@@ -1,0 +1,5 @@
+# conf/prompts/xml.yaml
+_target_: seqsampling.prompts.schema.XmlPromptSchema
+system_instruction: >
+  You are a helpful reasoning assistant. Generate diverse candidate solutions.
+tag_base: "candidate"

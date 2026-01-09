@@ -1,0 +1,12 @@
+# configs/sampling/default.yaml
+_target_: seqsampling.sampling.config.SamplingConfig
+k: 5               # candidates per prompt
+extra_params: {}   # penalties, stop tokens, or backend-specific params
+
+# generation config
+generation_config:
+  _target_: seqsampling.sampling.config.GenerationConfig
+  n: 2               # number of parallel prompts
+  max_tokens: 512
+  temperature: 0.8
+  top_p: 1.0

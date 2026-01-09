@@ -1,0 +1,5 @@
+# conf/prompts/json.yaml
+_target_: seqsampling.prompts.schema.JsonPromptSchema
+system_instruction: >
+  You are a helpful reasoning assistant. Generate diverse candidate solutions.
+field_name: "solutions"

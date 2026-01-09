@@ -1,0 +1,13 @@
+defaults:
+  - _self_
+  - client: openai
+  - prompt: json   # or xml
+  - parser: json   # or xml
+  - sampling: default
+
+# You can also put other experiment settings here
+sampling:
+  k: 4
+
+# constrained generation settings
+json_mode: true

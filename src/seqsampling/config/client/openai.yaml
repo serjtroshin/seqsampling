@@ -1,0 +1,6 @@
+# conf/prompts/json.yaml
+_target_: seqsampling.models.openai_client.OpenAIClient
+model: "gpt-4.1"
+api_key: null
+base_url: null
+timeout: 60
