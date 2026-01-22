@@ -5,12 +5,17 @@
 This repository is a plug-and-play implementation of "Asking a Language Model for Diverse Responses" work presented at the Second Workshop on Uncertainty-Aware NLP at EMNLP 2025. For the paper original code, including reproduction of the original experiments on the gsm8k task, please visit https://github.com/serjtroshin/ask4diversity.
 
 ## Installation
-To install the package, use poetry+conda:
+To install the package with uv:
 ```bash
-conda create -n seqsampling python=3.10.15 -y
-conda activate seqsampling
-pip install poetry
-poetry install
+uv venv --python 3.10.15
+source .venv/bin/activate
+uv pip install -e ".[dev]"
+```
+
+Optional (lock + sync):
+```bash
+uv lock
+uv sync --dev
 ```
 
 # Usage
