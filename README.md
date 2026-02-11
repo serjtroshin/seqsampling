@@ -1,6 +1,4 @@
 # Sequential Sampling for Diverse Responses
-![CI](https://github.com/serjtroshin/sequential_sampling/actions/workflows/ci.yml/badge.svg?branch=main)
-![Coverage](assets/coverage.svg)
 
 This repository is a plug-and-play implementation of "Asking a Language Model for Diverse Responses" work presented at the Second Workshop on Uncertainty-Aware NLP at EMNLP 2025. For the paper original code, including reproduction of the original experiments on the gsm8k task, please visit https://github.com/serjtroshin/ask4diversity.
 
